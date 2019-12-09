@@ -10,13 +10,15 @@ class PortfoliosController < ApplicationController
     def ruby
         @ruby_portfolio_items = Portfolio.ruby
     end
-    
+
     def new
       @portfolio_item = Portfolio.new
+      3.times{@portfolio_item.technologies.build}
     end
 
     def create
-      @portfolio_item = Portfolio.new(portfolio_params)
+      @portfolio_item = Portfolio.new(params.require(:portfolio).permit(:title, :subtitle, :body, technologies_attributes: [:name]))
+      #@portfolio_item = Portfolio.new(portfolio_params)
 
       respond_to do |format|
         if @portfolio_item.save
@@ -61,7 +63,7 @@ class PortfoliosController < ApplicationController
 
       # Never trust parameters from the scary internet, only allow the white list through.
       def portfolio_params
-        params.require(:portfolio).permit(:title, :subtitle, :body)
+        params.require(:portfolio).permit(:title, :subtitle, :body, technologies_attributes:[:name])
       end
     end
 end
