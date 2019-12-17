@@ -16,11 +16,11 @@
 
 
 
-    <%= login_helper %>
+    <%= login_helper("blog") %>
 
     <%= yield %>
     <%= render "shared/nav", location: 'bottom' %>
-    <%= source_helper("blog") %>
+    <%= source_helper %>
 
 
   </body>

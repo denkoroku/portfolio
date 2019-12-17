@@ -16,11 +16,11 @@
 
     <%= render "shared/nav", location: 'top' %>
 
-    <%= login_helper %>
+    <%= login_helper("portfolio") %>
 
     <%= yield %>
 
-    <%= source_helper("portfolio") %>
+    <%= source_helper %>
 
 
   </body>
