@@ -27,6 +27,14 @@
   max-width: 40rem;
 }
 
+.social-icons {
+  color: white;
+  display: flex;
+  justify-content:space-between;
+}
+
+
+
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -34,8 +42,4 @@ footer {
 
 footer p {
   margin-bottom: .25rem;
-}
-
-.ruby-statement{
-  
 }
