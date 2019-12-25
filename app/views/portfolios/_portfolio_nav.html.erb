@@ -1,26 +1,28 @@
 <header>
-  <div class="collapse bg-dark" id="navbarHeader">
+  <div class="collapse dark-background" id="navbarHeader">
     <div class="container">
       <div class="row">
         <div class="col-sm-8 col-md-7 py-4">
           <h4 class="text-white">About</h4>
-          <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+          <p class="text-white">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
         </div>
         <div class="p-4 text-white">
-          <h4 class="font-italic">Elsewhere</h4>
-
-          <div class="social-icons">
-            <a href="" ><%= fa_icon "github" %></a>
-            <a href=""><%= fa_icon "twitter" %></a>
-            <a href=""><%= fa_icon "instagram" %></a>
-            <a href=""><%= fa_icon "linkedin" %></a>
-            <a href=""><%= fa_icon "envelope" %></a>
+          <h4 class="">Explore</h4>
+          <div class="text-white">
+            <p><%= link_to "Home", root_path, class:"p-2"  %></p>
+            <p><%= link_to "About", about_path, class:"p-2 "  %></p>
+            <p><%= link_to "Contact", contact_path, class:"p-2"  %></p>
+            <p><%= link_to "Blog", blogs_path, class:"p-2" %></p>
+            <p><%= link_to "Portfolio", portfolios_path, class:"p-2"  %></p>
+            <p><%= login_helper %></p>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="navbar navbar-dark bg-dark shadow-sm">
+
+
+  <div class="navbar navbar-dark dark-background shadow-sm">
     <div class="container d-flex justify-content-between">
 
       <a href="#" class="navbar-brand d-flex align-items-center">

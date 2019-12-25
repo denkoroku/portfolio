@@ -2,17 +2,32 @@
 @import "font-awesome";
 
 
+body{background-color: #EDF7EE}
+
+.light-background {
+  background-color: #EDF7EE
+}
+
+.dark-background{
+  background-color: #2F4858
+}
+
 .jumbotron {
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin-bottom: 0;
-  background-color: #fff;
+  background-color: #86BBD8;
+  border-radius: 90%/0px 0px 150px 150px;
 }
 @media (min-width: 768px) {
   .jumbotron {
     padding-top: 6rem;
     padding-bottom: 6rem;
   }
+}
+
+img{
+  border-radius: 50%
 }
 
 .jumbotron p:last-child {
@@ -27,12 +42,9 @@
   max-width: 40rem;
 }
 
-.social-icons {
+ a{
   color: white;
-  display: flex;
-  justify-content:space-between;
 }
-
 
 
 footer {
