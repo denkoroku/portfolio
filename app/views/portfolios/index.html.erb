@@ -3,7 +3,7 @@
 
 <main role="main">
 
-<%= render 'portfolio_header' %>
+<%= render 'portfolio_header' unless logged_in?(:site_admin) %>
 
   <div class="light-background">
     <%= link_to "Create New Item", new_portfolio_url if logged_in?(:site_admin) %>
@@ -14,16 +14,3 @@
     </div>
   </div>
 </main>
-
-<footer class="text-muted">
-  <div class="container">
-    <p class="float-right">
-      <a href="#">Back to top</a>
-    </p>
-    <div class="">
-      <button type="button" class="btn btn-sm btn-outline-secondary"><%= login_helper("portfolio") %></button>
-       <span class="ruby-statement">Made Using Ruby on Rails </span>
-    </div>
-
-  </div>
-</footer>
