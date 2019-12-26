@@ -13,21 +13,20 @@ body{background-color: #EDF7EE}
 }
 
 .jumbotron {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  margin-bottom: 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
   background-color: #86BBD8;
-  border-radius: 90%/0px 0px 150px 150px;
 }
 @media (min-width: 768px) {
   .jumbotron {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 }
 
-img{
-  border-radius: 50%
+.jumbotron .container {
+  max-width: 40rem;
 }
 
 .jumbotron p:last-child {
@@ -42,7 +41,7 @@ img{
   max-width: 40rem;
 }
 
- a{
+.dark-background a{
   color: white;
 }
 
