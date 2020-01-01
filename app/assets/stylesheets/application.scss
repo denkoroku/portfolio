@@ -49,10 +49,19 @@ h2{
   text-align: left;
 }
 
+#intj{
+  color: #2F4858;
+  font-size: 2em;
+}
+
 p{
   line-height: 1.5em;
 }
-
+.badge-secondary{
+  background-color: #9EE493;
+  color: #2F4858;
+  font-weight: lighter;
+}
 body {
   display: -ms-flexbox;
   display: flex;
@@ -114,6 +123,13 @@ body {
   padding: 10px;
 }
 
+#portfolio-button{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.green{
+  background-color: #9EE493;
+}
 .cover-container {
   max-width: 56em;
   margin-right: auto;
@@ -193,6 +209,12 @@ body {
   padding: 1.2rem;
 }
 
+.logo{
+  overflow: hidden;
+}
+#technology-logos{
+  margin:4rem 2rem;
+}
 .card-img-top{
   margin-top:10px;
   margin-bottom:10px;
@@ -204,6 +226,9 @@ body {
   background: linear-gradient(to right,#2F4858,#336699);
 }
 
+.tech-card-title{
+
+}
 .auth-links a{
   color:black;
 }
