@@ -53,6 +53,8 @@ gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'petergate', '~> 1.6', '>= 1.6.3'
 gem 'font-awesome-rails', '~> 4.6', '>= 4.6.3.1'
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
+gem 'twitter', '~> 6.2'
+gem 'dotenv-rails', '~> 2.7', '>= 2.7.5'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

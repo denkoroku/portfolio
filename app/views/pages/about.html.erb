@@ -1,21 +1,126 @@
+<div class="container">
 
+  <div class="about-me-box">
+    <h1>About Me</h1>
+<div class="row">
 
-<h1>About Me</h1>
-<hr>
-<div class="">
-  <div class="col-md-4">
-    <%= image_tag "me_with_certificate.jpg", width:300, alt: "photo of me" %>
-  </div>
-
-  <div class="col-md-8 box">
-    <p>This page is all about me. If you want to read about this Ruby on Rails application go to </p>
-    <p>Write here about my experience and put a link to my CV. Talk about MCSE followed
-      by being a Senior Systems Engineer in charge of a team of 2nd level support.
-       Then teaching where I developed soft skills and developed my online pedegogy.
-      After leaving teaching I set up a cloud-based web hosting company and made websites.
+    <div class="card col-md-6">
+    <div class="card-body">
+    <p class="card-text">
+      <p>Write here about my experience and put a link to my CV. Talk about MCSE followed
+        by being a Senior Systems Engineer in charge of a team of 2nd level support.
+        Then teaching where I developed soft skills and developed my online pedegogy.
+        After leaving teaching I set up a cloud-based web hosting company and made websites.
       </p>
       <p>In November 2019 I went on a 3 month Web developer Course where I completed
-      over 500 hours of coding and learned full stack web development. Add more detail later</p>
+        over 500 hours of coding and learned full stack web development. Add more detail later</p>
+  </div>
+</div>
+
+<div class="card col-md-6">
+<h5 class="card-header">Personality</h5>
+<%= image_tag "intj.png", class:"card-img-top" %>
+<div class="card-body">
+<h6 class="card-subtitle mb-2 text-muted">INTJ</h6>
+<p class="card-text">  Testing with the Myers-Briggs personality assessment labels me as an INTJ
+  which is extremely rare for women (< 0.8%). You can read the full INTJ profile
+   <a href="https://www.16personalities.com/intj-personality" class = "badge badge-secondary">here</a>
+    and below are some of the key traits:
+   <ul class="list-group">
+  <li class="list-group-item">Highly curious, Imaginative and Strategic</li>
+  <li class="list-group-item">Independent and Decisive</li>
+  <li class="list-group-item">Hard-Working and Determined</li>
+  <li class="list-group-item">Natural Thirst for Knowledge</li>
+  <li class="list-group-item">Innovative and Unique</li>
+</ul>
+
+  </p>
+</div>
+</div>
+
+</div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="main-timeline">
+          <div class="timeline">
+            <a href="#" class="timeline-content">
+              <div class="timeline-year">
+                <span>2019</span>
+              </div>
+              <h3 class="title">Full-Stack</h3>
+              <div class="timeline-icon">
+                <i class="fa fa-rocket"></i>
+              </div>
+              <p class="description">
+                CodeClan 3 months in Inverness learning Ruby, Sinatra, Postgres, Vue, Javascript, MongoDB, React, NodeJS, Express.
+              </p>
+            </a>
+          </div>
+          <div class="timeline">
+            <a href="#" class="timeline-content">
+              <div class="timeline-year">
+                <span>2018</span>
+              </div>
+              <h3 class="title">Web Designing</h3>
+              <div class="timeline-icon">
+                <i class="fa fa-globe"></i>
+              </div>
+              <p class="description">
+                Self-Employed Web developer with own cloud-hosting service. Studied AWS.
+              </p>
+            </a>
+          </div>
+          <div class="timeline">
+            <a href="#" class="timeline-content">
+              <div class="timeline-year">
+                <span>2017</span>
+              </div>
+              <h3 class="title">Chartered Teacher</h3>
+              <div class="timeline-icon">
+                <%= fa_icon("chalkboard-teacher") %>
+
+
+              </div>
+              <p class="description">
+                Teaching
+              </p>
+            </a>
+          </div>
+          <div class="timeline">
+            <a href="#" class="timeline-content">
+              <div class="timeline-year">
+                <span>20??</span>
+              </div>
+              <h3 class="title">Senior Systems Engineer</h3>
+              <div class="timeline-icon">
+                <i class="fa fa-globe"></i>
+              </div>
+              <p class="description">
+                Managing a team of second-level engineers
+              </p>
+            </a>
+          </div>
+          <div class="timeline">
+            <a href="#" class="timeline-content">
+              <div class="timeline-year">
+                <span>2018</span>
+              </div>
+              <h3 class="title">Technician</h3>
+              <div class="timeline-icon">
+                <i class="fa fa-globe"></i>
+              </div>
+              <p class="description">
+                ICT Technician
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 </div>
+
+  <%= render "shared/application_footer" %>
