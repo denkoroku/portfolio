@@ -10,15 +10,17 @@ body{background-color: #EDF7EE}
 }
 
 .dark-background{
-  background-color: #2F4858
+  background: linear-gradient(to right,#2F4858,#336699);
 }
 
 .jumbotron {
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-bottom: 2rem;
-  background-color: #86BBD8;
+  background-color: #369bd9;
+  background-image: url("diagmonds-light.png");
 }
+
 @media (min-width: 768px) {
   .jumbotron {
     padding-top: 3rem;
