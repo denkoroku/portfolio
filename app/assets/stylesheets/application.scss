@@ -116,7 +116,11 @@ body {
   backdrop-filter: blur(10px);
   padding: 20px 40px;
   margin-bottom: 10px;
-  margin-top: 10%;
+
+}
+
+.navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(47, 72, 88, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 #about{
@@ -360,6 +364,10 @@ body {
     background: linear-gradient(to right,#336699,#2F4858);
 }
 
+#contact-info{
+  margin-left: auto;
+  margin-right:auto;
+}
 
 @media screen and (max-width:767px){
     .main-timeline .timeline,
