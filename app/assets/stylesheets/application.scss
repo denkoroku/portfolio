@@ -225,6 +225,19 @@ body {
   background: linear-gradient(to right,#2F4858,#336699);
 }
 
+.accordion .card-header:after {
+    font-family: 'FontAwesome';
+    content: "\f068";
+    float: right;
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067";
+}
+
+.accordion .card-header{
+  font-size: 20px;
+}
 
 .auth-links a{
   color:black;
