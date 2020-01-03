@@ -4,6 +4,9 @@ class Portfolio < ApplicationRecord
 
   validates_presence_of :title, :body, :main_image, :thumb_image
 
+  mount_uploader :thumb_image, PortfolioUploader
+  mount_uploader :main_image, PortfolioUploader
+
   scope:react, ->{where(subtitle:"React")}
   scope:ruby, ->{where(subtitle:"Ruby")}
 
@@ -13,6 +16,6 @@ class Portfolio < ApplicationRecord
     self.thumb_image ||= "https://via.placeholder.com/356x280"
   end
 
-  
+
 
 end

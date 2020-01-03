@@ -55,6 +55,9 @@ gem 'font-awesome-rails', '~> 4.6', '>= 4.6.3.1'
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
 gem 'twitter', '~> 6.2'
 gem 'dotenv-rails', '~> 2.7', '>= 2.7.5'
+gem 'carrierwave', '~> 2.0', '>= 2.0.2'
+gem 'mini_magick', '~> 4.9', '>= 4.9.5'
+gem 'carrierwave-aws', '~> 1.4'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
