@@ -19,6 +19,19 @@ body{background-color: #EDF7EE}
   margin-bottom: 2rem;
   background-color: #369bd9;
   background-image: url("diagmonds-light.png");
+  color:#2F4858
+}
+
+.btn-outline-secondary{
+  border-color: #2F4858;
+  color: #2F4858;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+border-color: #9EE493;
+background-color: rgba(0,0,0,0);
+color: #2F4858;
 }
 
 @media (min-width: 768px) {
