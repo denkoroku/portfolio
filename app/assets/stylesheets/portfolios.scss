@@ -13,6 +13,18 @@ body{background-color: #EDF7EE}
   background: linear-gradient(to right,#2F4858,#336699);
 }
 
+.portfolio-menu{
+  -webkit-box-shadow: 5px 5px 24px -4px rgba(0,0,0,0.71);
+box-shadow: 5px 5px 24px -4px rgba(0,0,0,0.71);
+border-style: double;
+border-width: thin;
+border-color: white;
+border-radius: 5px;
+margin:20px 50px 20px 50px;
+float:right;
+
+}
+
 .jumbotron {
   padding-top: 2rem;
   padding-bottom: 2rem;
