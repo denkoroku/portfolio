@@ -31,7 +31,7 @@ module ApplicationHelper
           title: 'Contact'
         },
         {
-          url: blogs_path,
+          url: 'https://nanoweb.co.uk/blog/',
           title: 'Blog'
         },
         {
