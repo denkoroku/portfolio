@@ -213,12 +213,16 @@ body {
   padding: 1.2rem;
 }
 
-.logo{
-  overflow: hidden;
+
+#technology-logos2 {
+  align-items: center;
 }
-#technology-logos{
-  margin:4rem 2rem;
+
+.align-card{
+  border-style: none;
+  margin: auto;
 }
+
 .card-img-top{
   margin-top:10px;
   margin-bottom:10px;
