@@ -6,6 +6,10 @@
  * Globals
  */
 
+ [data-toggle~="collapse"] {
+     cursor: pointer;
+ }
+
 /* Links */
 a,
 a:focus,
