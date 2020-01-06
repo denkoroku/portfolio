@@ -30,10 +30,7 @@ module ApplicationHelper
           url: contact_path,
           title: 'Contact'
         },
-        {
-          url: 'https://nanoweb.co.uk/blog/',
-          title: 'Blog'
-        },
+      
         {
           url: portfolios_path,
           title: 'Portfolio'
