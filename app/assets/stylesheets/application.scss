@@ -6,9 +6,11 @@
  * Globals
  */
 
- [data-toggle~="collapse"] {
+
+/*Makes accordion work on iphone */
+[data-toggle~="collapse"] {
      cursor: pointer;
- }
+}
 
 /* Links */
 a,
